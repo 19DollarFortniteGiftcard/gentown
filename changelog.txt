@@ -1,0 +1,422 @@
+[Version 1.0 - 4 Nov 2025 - Official Release]
+
+[Version 0.9.2 - 2 Nov 2025 - Prerelease-3]
+ ~ Fixed: War is sometimes broken
+ ~ Fixed: Livestock stops collecting after husbandry is unlocked
+ ~ Fixed: Wrong winner is sometimes displayed in war info
+
+[Version 0.9.1 - 2 Nov 2025 - Prerelease-2]
+ + Each military unlock increases damage in war
+ + Share message for first day of planet
+ + Ctrl+S and Ctrl+O keybinds to save and load files
+ ~ Revolution that restructure governments normalize existing relations
+ ~ Revolutions can't happen immediately after a town forms a colony
+ ~ Colonies can't get into wars immediately after founding
+ ~ Screenshot file names include day number like saves
+ ~ Fixed: Traded resource count isn't rounded when bought with cash
+ ~ Fixed: Next Day button still glows when pressed while disabled
+ ~ Fixed: Typo in education unlock message
+ ~ Fixed: Town fallen message can appear twice when defeated in war
+
+[Version 0.9 - 1 Nov 2025 - Prerelease-1]
+ + Relations between towns
+    + Displayed in town info
+    + Diplomatic meetings increase or decrease relations
+    + Trade and migration increase relations
+ + War!
+    + Poor relations can cause towns to wage war
+    + Wars end in a town being destroyed, surrendering, or rarely a truce
+ + Faint vignette around map
+    + Map overlay setting to disable vignette and future effects
+ + Duration is shown in event info
+ + Global private wealth is shown in planet info
+ + Press 'C' to save a map screenshot
+ + Disasters are highlighted when hovered over
+ ~ Cash resource is no longer limited by town size
+ ~ Some currency names result in their real-life symbol
+ ~ Towns are more likely to trade with nearby towns
+ ~ Towns must be at least 25 days old to gain autonomy
+ ~ Autonomous town names are desaturated like their map color
+ ~ Only the 5 largest influence changes are reported in the Chronicle
+ ~ Next Day button has a more 3D look
+ ~ Some popups have a slight semantic tint to their borders
+ ~ Town names are clickable in revolution messages
+ ~ Changed Projects keybind to 'J'
+ ~ Beta tab is now the Info tab
+ - Removed beta messaging
+ ~ Loading text uses pixel font
+ ~ Fixed: Tax profits are too high
+ ~ Fixed: Loading text is off-center on mobile
+ ~ Fixed: Per capita wealth shows Infinity with zero population
+ ~ Fixed: Tax abolishment message is broken
+ ~ Fixed: Uneven spacing in About popup
+ ~ Fixed: 'Reset to defaults' setting is laggy
+ ~ Fixed: 'P' on map no longer works when Projects tab is unlocked
+
+[Version 0.8.1 - 27 Oct 2025]
+ + Sharing
+    + Progress can be shared to social media
+    + Share button in Info (Beta) tab
+    + Click on a day number to share individual messages
+    ~ Added 'Start Over' and 'Share' buttons to game over messages
+    ~ Special share messages for dead and autonomous planets
+ + Controls button in Info (Beta) tab
+ + Day number appears in page title
+ ~ Town rename prompts are rarer
+ + Planet deaths appear in Timeline
+ ~ Fixed: Global usurp message is broken
+ ~ Fixed: Letter read button can't be clicked more than once
+ ~ Fixed: Weird text spacing in some popups on mobile
+ ~ Fixed: Sunset message doesn't round cash changes with decimals
+
+[Version 0.8 - 26 Oct 2025]
+ + Economic systems (Socialism and Capitalism)
+ + Currency naming with automatic symbols
+ + Economic data shown in town info
+    + Private wealth is increased daily for employed residents
+ + Taxation
+    + Cash resource
+    + Tax rates can be introduced, increased, or decreased
+    + Taxes are taken from private wealth daily
+    + Tax rates are reset after economic collapse
+    + Tax evasion can be legalized
+ + Trading
+    + Towns trade needed resources with each other
+    + Cash is used to trade when available
+ + Private wealth is transferred through migration, but town cash isn't
+ + Economic collapse with low trade
+    + Low private wealth decreases trade
+ ~ Construction projects use cash when available
+ + Keybinds for all executive buttons
+ + Keybinds for Yes and No buttons ('Y' and 'N')
+ + After 30 days of global usurp, the player can be brought back into power
+ + Town and planet autonomy dates are shown in the Timeline
+ + Landmarks are highlighted when hovered over on map
+ + Government form rejection message
+ ~ Government formation prompts are more common
+ ~ Improved flag rejection message
+ ~ Numbers can abbreviate millions (e.g. 6.7M)
+ ~ Fixed: Player can be usurped from planet again while already usurped
+ ~ Fixed: Inactivity warning still shows after being globally usurped
+
+[Version 0.7.2 - 23 Oct 2025]
+ + Oldest town stat
+ ~ Towns must be slightly closer to mountains to obtain "Monte-" prefix
+ ~ Fixed: Carved borders are broken
+ ~ Fixed: Territory view isn't selected when loading a save
+ ~ Fixed: A save file can't be loaded twice without refreshing
+ ~ Fixed: Formatting error in revolution message for towns with apostrophes
+ ~ Fixed: First letter isn't capitalized in Reset Progress prompt
+ ~ Fixed: Bottom buttons are slightly cut off on iOS
+ ~ Fixed: Flags of autonomous towns are italicized
+ ~ Fixed: Autonomous towns can make global decisions, like unlocks
+ ~ Fixed: Autonomous towns still ask to name landmarks
+ ~ Fixed: Info sheets for towns that fell before v0.7 don't display
+
+[Version 0.7.1 - 22 Oct 2025]
+ + Faith influence
+     + Faith goes up if towns are consistently happy
+     + Faith goes down during revolutions or intense anger
+     + Towns lose faith if player doesn't answer prompts for a long time
+     + Temple construction project
+     + Religion can be illegalized
+ + Town autonomy
+     + Towns will stop asking for your input if they lose faith
+     + When autonomous, towns decide prompts on their own
+ + Usurp
+     + Player can be kicked out of the whole planet by its inhabitants
+     + Occurs if most towns are very unfaithful
+     + Autonomous towns appear gray on map and with italicized names
+ + Town militaries are able to stop revolutions from succeeding
+ + Prompt streak stat
+ ~ Mobile "Stats" button now says "Preview"
+ ~ Cooldown between warnings has been extended
+ ~ Chronicle is scrolled up when a new message is sent
+ ~ Fixed: Disasters that hit towns don't show their message
+ ~ Fixed: Towns can't split after revolutions
+ ~ Fixed: Demonyms ending in "people" turn to "perpeople"
+ ~ Fixed: Revolutions sometimes finish without a message
+ ~ Fixed: Map can't be right-clicked anymore
+
+[Version 0.7 - 20 Oct 2025]
+ + Revolutions
+     + Angry towns can start revolutions
+     + Revolutions result in town splitting or reorganization
+     + Revolutions cause death, injuries, and destruction
+     + Requires a form of government
+     + Town suffixes are sometimes applied for certain forms (i.e. X Republic)
+     + Towns can't expand during revolutions
+ + Forms of government (Democracies, Republics, Monarchies, and Dictatorships)
+ + Score
+     + Calculated from the joy and suffering of inhabitants
+     + Shown in Stats tab when unlocked
+     + Shown when all towns fall
+     + Peak planet score is shown in Stats tab
+ + Warning markers show on the map during revolutions and disasters
+ + Warning markers in town hover previews
+ + All executive menus update dynamically if left open
+ + Unemployment can be illegalized
+ + Law influence (Hidden)
+ + Average mood is shown in stats
+ + Landmasses are shown in town info
+ + PWA support
+ + Favicon
+ ~ Total population over 1,000 is abbreviated in stats panel like others
+ ~ Town land count over 1,000 is abbreviated in stats panel
+ ~ Biome name in info popup is capitalized
+ ~ Town prefixes no longer shown in sunset summary
+ ~ Fixed: Info screen for processes (disasters, projects) don't show name
+ ~ Fixed: "Roman" demonym plural
+ ~ Fixed: Error when hovering out of the map with a chunk pinned
+ ~ Fixed: Landmarks can be corrupted in long saves
+ ~ Fixed: Non-damaging disasters are still saved
+ ~ Fixed: Disasters are saved with names
+ ~ Fixed: Construction projects don't properly cancel when town falls
+ ~ Fixed: Unlocked executive buttons aren't shown/hidden when loading save file
+ ~ Fixed: Save files can't be loaded on iOS
+ ~ Fixed: Banning expansion doesn't prevent boating
+
+[Version 0.6.1 - 14 Oct 2025]
+ + Expansion can be illegalized
+ + Construction can be illegalized
+ + Town name prefixes ("The")
+     + Prefix will be added automatically with certain names (i.e. "United Towns")
+     + Prefix is only displayed in certain contexts
+     + Prefix added by user will be detected
+ ~ Updated Beta checklist
+ ~ Fixed: "Volume (No Water)" in planet info is formatted wrong on mobile
+
+[Version 0.6 - 12 Oct 2025]
+ + Laws
+     + Towns can legalize or illegalize certain actions
+     + Laws can be unlocked after farming
+     + Towns become anarchies when laws are rejected
+ + Natural and disaster deaths are shown in Stats tab
+ + Apostrophes can appear in names, representing glottal stops
+ ~ There should be much less "uneventful days"
+ ~ Prison construction requires Laws unlock
+ ~ Currency unlock depends on Laws unlock
+ ~ "North", "West", etc. in colony names use town's center for higher accuracy
+ ~ Towns can't create colonies directly after disasters
+ ~ Next Day and View triangles are pixelated
+ ~ Fixed: Towns don't hire soldiers
+
+[Version 0.5.3 - 8 Oct 2025]
+ + Mod manager
+ ~ Fixed: Improper spacing in some prompts
+
+[Version 0.5.2 - 5 Oct 2025]
+ + Save planets to files and load them later
+ + Planets keep track of basic statistics
+ + After 100 global population, the Stats tab is unlocked
+ + Unlocks tab shows a progress percentage
+ + Projects tab and Almanac show an item count
+ ~ Almanac title shows "Almanac" instead of "Resources"
+ ~ Fixed: Crops and livestock don't track their domestication date
+
+[Version 0.5.1 - 30 Sep 2025]
+ + Underpopulated towns begin to decay
+     + Towns with 1 population or a low population density will lose territory
+ ~ Boating is separate from expansion
+     + Boating event allows towns to dock once on each landmass
+     ~ Hopefully fixes ugly town borders
+ + Tip and notification when a planet dies out
+ ~ Disasters that don't affect towns no longer show in Timeline tab
+ ~ Disasters that don't affect towns are excluded from saves
+ ~ Disasters are no longer perfectly circular
+ ~ Wildfires don't start in snowscapes
+ ~ Highway landmarks are less dark
+ ~ Warnings repeat after 20 days instead of 10
+ ~ Less text wrapping in towns table
+ ~ Mobile hover preview no longer shows day number
+ ~ Scrollbars should appear dark-themed
+ ~ Improved save compression
+ ~ Fixed: Landmarks are displayed as "Marker" instead of their type
+ ~ Fixed: Colonies can have events immediately after founding
+ ~ Fixed: Wildfires can spread onto water
+ ~ Fixed: Empty space under some messages, notably migration
+ ~ Fixed: Changelog looks bad on mobile
+ ~ Fixed: Towns can tame animals before unlocking Husbandry
+
+[Version 0.5 - 29 Sep 2025]
+ + Construction Projects
+     + Towns with Stoneworking unlocked can start projects
+     + Projects use building material each day
+     + When completed, a landmark appears on the map and the town is influenced
+     + Landmark naming prompt
+ + Natural Disasters
+     + Rare events around the map that can kill or injure residents, destroy landmarks
+     + Wildfires
+     + Hurricanes
+     + Earthquakes
+ + Settings tab
+     + Units setting, view numbers in metric or imperial units
+     + Dates setting, view dates in Gregorian format
+     + Hold 'Shift' to show town names on the map, or enable in Settings
+     + Carve borders setting to remove square borders around water
+     + Marker setting to hide landmarks on map
+     + Desaturate Biomes accessibility setting
+ + Towns celebrate each 100th day anniversary
+ + Temporary influences
+     ~ Towns made unhappy from starving will become happier after food is returned
+ + Town migration transfers some influences
+ + Projects tab, unlocked after a project begins
+ + Timeline tab, unlocked after a project or other event ends
+ + Towns can adopt national animals
+ + Some special town names add attributes to the town
+ + Planet info shows continents, circumference, and volume
+ + Landmass info shows the current planet and plate size
+ + Town info shows average elevation
+ + Stats display on mobile when touching over the canvas
+ + Destructive options are colored red
+ + Global colony cooldown
+ ~ Deep-sea regions are labeled as Trenches
+ ~ Some livestock are based on others when a new planet is formed
+ ~ Livestock taming no longer uses chunk fertility
+ ~ Next Day button shrinks when clicked
+ ~ Town flags can have their initial as their emblem
+ ~ Black and white are more common in flag designs
+ ~ Popups backgrounds are translucent unless hovered over
+ ~ Mountain town names are shorter
+ ~ Town names can't have three of the same letter in a row
+ ~ Improved plural generator for names ending in 'y'
+ ~ Temperature view no longer shows towns
+ ~ Player name is stored in settings instead of the planet
+ ~ Fixed: Canvas size gets stuck when zooming on mobile
+ ~ Fixed: Towns with -10 Hunger influence don't eat
+ ~ Fixed: Planet info shows pixel size instead of chunk size
+ ~ Fixed: Colonies can become cities before towns
+ + Link to R74n in Beta tab
+ + Technical: System for updating loaded planets with new data
+
+[Version 0.4.2 - 17 Sep 2025]
+ + Towns can adopt auto-generated flags which display next to their names
+ ~ Mountains are more common, appearing anywhere with 100% elevation
+ ~ Fixed: Pressing Spacebar after clicking on chronicle causes scrolling
+
+[Version 0.4.1 - 16 Sep 2025]
+ + New fallen towns are labeled as Ghost Towns
+ ~ Moved About button to Beta tab
+ ~ Changelog must be opened to remove notification from Beta button
+ ~ Message for incomplete features such as militarism
+ ~ Fixed: Town count in Towns tab is inaccurate
+
+[Version 0.4 - 15 Sep 2025]
+ + Migration
+     + Population, resources, and jobs are transferred during migration
+     + Emigration occurs when a colony is formed, increasing if the town is unhappy
+     + Mass migration events occur when a town is unhappy and travel is unlocked
+ + Towns and Almanac tabs can be sorted
+ + Towns can tame and eat livestock
+ + New towns with 2 or less territory are labeled as Microtowns
+ + Town status upgrade messages show a green day number
+ ~ Beta button changes
+     + Changelog button
+     + Update notification
+     + Version number displayed
+     ~ The Beta button will become a general info button in the future
+ ~ Colonies no longer form with just 1 population
+ ~ Births can no longer happen with less than 2 population
+ ~ Fixed: Text prompts don't display influence changes afterwards
+ ~ Fixed: Military unlock message can refer to former town
+ ~ Fixed: Some prompts can still appear when no towns exist
+ + Controls page: https://r74n.com/gentown/controls.txt
+
+[Version 0.3.5 - 14 Sep 2025]
+ + Planet info panel displays surface area, land area, and inhabited status
+ + Elevation view
+ ~ Town hover highlight affects opacity to be more apparent
+ + 'Enter' key or Spacebar to progress to the next day
+ + 'P' key to pin a chunk without right clicking
+ + Number keys to change views
+ ~ 'Escape' key can close executive menus
+ ~ Fixed: Daily deaths are not handled properly
+ ~ Fixed: Game doesn't autosave after text prompts
+ ~ Technical: Many constants are no longer hard-coded
+
+[Version 0.3.4 - 13 Sep 2025]
+ + Town status upgrades based on population
+     + Colony, Town, City, Metropolis, Nation, and Empires
+ + Colony names can start with "North", "East", etc. based on direction
+ + Towns placed near mountains will start with "Monte"
+ + Some towns placed near water will start with "Cape"
+ + Prevention of duplicate names
+ ~ Happy influence is displayed as "Mood" in the log
+ ~ Trade unlocks improve mood
+ ~ Reformatted town list in stats, now shows town sizes
+ ~ Improved page responsiveness for short windows
+ + Link to feedback form in beta menu
+ ~ Fixed: Population icon when hovering over town doesn't show mood
+
+[Version 0.3.3 - 9 Sep 2025]
+ + Mountains have their own names and landmasses
+ ~ As more towns appear, only the most relevant resource updates are shown
+ ~ Renamed Snowland biome to Snowscape
+ ~ Town names sometimes start with "Los", "Las", or "La"
+ ~ Colony names sometimes start with "New"
+ ~ Colonies are no longer directly next to other towns
+ + Towns tab shows amount of towns
+ + Almanac shows Livestock or Crop icon next to names
+ + Some text prompts display a live preview
+ ~ Double vowels in names are less common
+ ~ Fixed: Livestock and Formerly values are broken in browser
+ ~ Fixed: Towns can employ more than their population
+ ~ Stats show rounded numbers (e.g. 4.5K)
+
+[Version 0.3.2 - 8 Sep 2025]
+ ~ Revamped Stats panel
+ + All town populations and their moods are now shown neatly
+ + Planet name is shown
+ ~ On hover, landmass and water names are shown
+ ~ On hover, town population is shown alongside resources
+ ~ Town names are sorted by population
+ + Almanac
+ ~ Executive buttons must be unlocked
+ + The new Almanac is unlocked after a domestication event
+ ~ Unlocks button is unlocked after an unlock event
+ ~ Town button is unlocked after your town is created
+ + Biome information can be browsed by clicking its name or in Terrain view
+ ~ Entity names are animated when hovered or clicked
+ ~ Town resource capacity is limited by territory size
+ ~ Town recolor events have a maximum and minimum lightness
+ ~ Prompt length limits are enforced while typing
+ ~ Fixed: Text box doesn't autofocus in popups
+ ~ Technical: Saves are validated to detect game-breaking data
+
+[Version 0.3.1 - 7 Sep 2025]
+ + Colonies display their parent towns in their stats
+ + Planet name is colored like the ocean
+ ~ Greatly reduced number of colonies
+ ~ Towns cannot produce more food than their population (e.g. Towns with 1 population)
+ ~ Lightened default red and magenta town colors
+ ~ Town recolor events can vary in lightness
+ ~ Colonies are colored similar to recolor events
+ ~ Fixed: Fallen towns break everything
+ ~ Fixed: Colonies can spawn with territory on different sides of parent town
+ ~ Fixed: Beta progress tab is outdated
+
+[Version 0.3 - 6 Sep 2025]
+ + Starvation
+ + Towns will fall if they lose all population
+ ~ Improved prompt layout on mobile
+ ~ All land chunks are now assigned landmasses
+ ~ Swapped "Yes" and "No" positions for consistency
+ ~ Tweaked name generation
+ ~ Projectile Weapons unlock influences Crime
+ + Custom names have length limits
+ ~ Fixed: Towns expand through each other
+ ~ Fixed: Prompts are hidden when executive panel is opened on mobile
+ ~ Fixed: Game is bigger than screen on iOS
+ ~ Fixed: Page can be overscrolled on iOS
+ ~ Fixed: Map hover brightness for towns are inconsistent
+
+[Version 0.2 - 4 Sep 2025]
+ ~ Fixed: Out-of-control colonies
+ ~ Fixed: XSS through text prompts
+
+[Version 0.1 - 4 Sep 2025 - Early Beta]
+ + Towns
+ + Jobs
+ + Resources
+ + Unlocks
+ + A couple prompt events
